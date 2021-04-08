@@ -1,4 +1,4 @@
 # form43.github.io
-Ejemplo de un chat y acceso a Firebase (Firestore con Google).
+Ejemplo de Conexión de B.D. de Alumnos (Firestore con Google).
 
 
