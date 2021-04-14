@@ -1,13 +1,7 @@
-class MiFooter
-  extends HTMLElement {
-  connectedCallback() {
+class MiFooter extends HTMLElement {
+  connectedCallback(){
     this.innerHTML = /* html */
-      `<p>
-        &copy; 2021
-       Martínez Francisco Ana Lizbeth.
-      </p>`;
+  `Copyright &copy; 2020 Ana Lizbeth Martínez Francisco.`;
   }
 }
-
-customElements.define(
-  "mi-footer", MiFooter);
+customElements.define("mi-footer", MiFooter);
